@@ -1,10 +1,47 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-div{
+div {
   min-height: 100px;
   min-width: 100px;
   border: 1px solid black;
   margin: 5px;
+}
+
+.huber #lisa,
+#luis {
+  background: black;
+}
+
+.huber {
+  background: green;
+}
+
+.meier {
+  background: red;
+}
+
+#lisa {
+  background: yellow;
+}
+
+.meier #luis {
+  background: pink;
+}
+
+.huber div#lisa {
+  background: purple;
+}
+
+html body div.huber div#lisa {
+  background: white;
+}
+
+.huber #lisa.meier{
+  background: red;
+}
+
+#georg{
+  background: maroon;
 }
